@@ -2,14 +2,12 @@
   This game will start by the countdown mechanism, and compete for 2 participator in reaction time. 
 
 ## Used Parts
+  ```
   Basic Breadboard
-  
   Jumpwires and wires
-  
   LED bulbs 
-  
   Buttons
-
+```
 ## Codes
 ```
 const int speaker = 11;
