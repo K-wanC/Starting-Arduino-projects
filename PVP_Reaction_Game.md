@@ -1,4 +1,4 @@
-# Reaction_Game
+# PVP_Reaction_Game
   This game will start by the countdown mechanism, and compete for 2 participator in reaction time. 
 
 ## Used Parts
