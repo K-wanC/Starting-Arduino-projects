@@ -1,13 +1,14 @@
 # Reaction_Game
   This game will start by the countdown mechanism, and compete for 2 participator in reaction time. 
 
-# Used Parts
+## Used Parts
   Basic Breadboard
   Jumpwires and wires
   LED bulbs 
   Buttons
 
-# Codes
+## Codes
+```
 const int speaker = 11;
 const int read = A0;
 // Initializing ports for use, speaker will be digital 11 and analog read port will be A0
@@ -31,3 +32,4 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 }
+```
