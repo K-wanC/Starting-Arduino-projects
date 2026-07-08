@@ -3,8 +3,11 @@
 
 ## Used Parts
   Basic Breadboard
+  
   Jumpwires and wires
+  
   LED bulbs 
+  
   Buttons
 
 ## Codes
