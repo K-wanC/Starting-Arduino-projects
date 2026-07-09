@@ -49,6 +49,7 @@ void loop()
     digitalWrite(winbulb2,HIGH);
     if(digitalRead(side1)==0)
     {
+      Serial.println("Side 1 wins!");
       pressed=1;
       digitalWrite(winbulb2,LOW);
       delay(1000);
@@ -56,6 +57,7 @@ void loop()
     }
     else if(digitalRead(side2)==0)
     {
+      Serial.println("Side 2 wins!");
       pressed=1;
       digitalWrite(winbulb1,LOW);
       delay(1000);
