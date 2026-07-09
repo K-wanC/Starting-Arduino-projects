@@ -9,10 +9,10 @@
   Buttons
   Buzzer
 ```
-## Building showcase
+## Building
 <img width="806" height="541" alt="image" src="https://github.com/user-attachments/assets/f34b91cd-c57a-49a7-a774-5e7e47ca9130" />
 
-## Codes
+## Code
 ```
 const int speaker = 11;
 const int side1 = 13;
