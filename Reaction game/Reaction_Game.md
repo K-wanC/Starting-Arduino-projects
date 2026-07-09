@@ -1,12 +1,6 @@
 # Reaction Game
-   Countdown
-      |
-      V
-Reaction response
-      |
-      V
-Back to countdown
-   as a loop
+   Sart by counting down, then determine which side pressed the button first, also display it in Serial Monitor.
+   Loops infinitely until lose power.
 
 ## Used Parts
   ```
