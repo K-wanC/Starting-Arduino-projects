@@ -8,6 +8,9 @@
   LED bulbs 
   Buttons
 ```
+## Building showcase
+<img width="806" height="541" alt="image" src="https://github.com/user-attachments/assets/f34b91cd-c57a-49a7-a774-5e7e47ca9130" />
+
 ## Codes
 ```
 const int speaker = 11;
