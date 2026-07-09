@@ -1,5 +1,12 @@
 # Reaction Game
-  This game will start by the countdown mechanism, and compete for 2 participator in reaction time. 
+   Countdown
+      |
+      V
+Reaction response
+      |
+      V
+Back to countdown
+   as a loop
 
 ## Used Parts
   ```
