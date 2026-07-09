@@ -1,7 +1,9 @@
+<img width="346" height="260" alt="image" src="https://github.com/user-attachments/assets/a4d4a247-9860-4737-bf2b-6cb06adeccd1" />
+
 # Starting-Arduino-projects
-Collection of small Arduino projects I have done
+Collection of small Arduino projects
 
 ## All codes based on Arduino IDLE
 Modified C++ codes
 
-### Each prject will have explanations inits specific file
+### Each project will have explanations in its specific file
