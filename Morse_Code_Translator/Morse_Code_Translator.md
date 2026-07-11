@@ -12,10 +12,7 @@ Detects and seperates long & short presses of a button, than translates it in to
 **This project is major in coding than electronic parts.
 
 ```
-  
   button
-  
-  
   wires
 ```
 
