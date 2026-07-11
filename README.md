@@ -5,7 +5,7 @@
 # Starting-Arduino-projects
 Collection of small Arduino projects
 
-## All codes based on Arduino IDLE
+## All codes based on Arduino IDE
 Modified C++ codes
 
 ### Each project will have explanations in its specific file
