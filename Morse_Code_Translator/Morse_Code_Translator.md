@@ -15,6 +15,8 @@ Detects and seperates long & short presses of a button, than translates it in to
   button
   wires
 ```
+# Building
+<img width="1004" height="643" alt="image" src="https://github.com/user-attachments/assets/c784a4a3-789f-479f-9130-32bfcc7ed1a0" />
 
 # Code
 ```
