@@ -1,7 +1,8 @@
 # Reaction Game
-      Start by counting down, then determine which side pressed the button first, also display it in Serial Monitor.
+
+Start by counting down, then determine which side pressed the button first, also display it in Serial Monitor.
    
-      Loops infinitely until lose power.
+Loops infinitely until lose power.
 
 ## Used Parts
   ```
