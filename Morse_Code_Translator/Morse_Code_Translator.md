@@ -16,8 +16,7 @@ Detects and seperates long & short presses of a button, than translates it in to
 ``
 
 # Code
-``
-
+```
 const int codePin = 8;
 const int charPin = 10;
 const int wordPin = 12;
@@ -163,5 +162,4 @@ void setup() {
 void loop() {
   morse.press();
 }
-
-``
+```
