@@ -20,6 +20,12 @@ Detects and seperates long & short presses of a button, than translates it in to
 
 # Code
 ```
+//Code majored project, simple building and only used INPUT_PULLUP with button.
+
+/*
+(INPUT_PULLUP is a built-in feature of arduino codings, it supposed to indicate a mechanism where a input is connected in a serie with an output, and a resistor; when the current is activated, the resistor will lower the voltage, input node detects, to near zero, resulting input return LOW. While the current isn't connected, the vooltage will not lower by resistor thus input always return HIGH.)
+*/
+
 const int codePin = 8;
 const int charPin = 10;
 const int wordPin = 12;
@@ -43,27 +49,20 @@ class interaction {
   bool waitConf = false;
 
   public:
+
+  /*
+  Press time detecting
+  Detects when press state changes, and detect after the delay to confirm the press, then change the variable, and record current millisecond value; later when the value        changes again, after confirmed, stop recording and return the calculated pressed time.
+  */
+
   void press() {
     bool reading = digitalRead(codePin);
-
-    if (count > 0 && currentStabledState == HIGH && millis() - detachTime >= characterTime) {
-      digitalWrite(charPin, HIGH);
-      interpretation();
-      waitConf = true;
-      digitalWrite(charPin, LOW);
-    }
-
-    if (waitConf == true && currentStabledState == HIGH && millis() - detachTime >= wordTime) {
-      digitalWrite(wordPin, HIGH);
-      Serial.print(" ");
-      waitConf = false;
-      digitalWrite(wordPin, LOW);
-    }
 
     if (reading != lastStabledState) {
       lastDebouncedTime = millis();
     }
-
+    //Detects when button statement changes
+    
     if ((millis() - lastDebouncedTime) > debounceDelay) {
       if (reading != currentStabledState) {
         currentStabledState = reading;
@@ -88,6 +87,27 @@ class interaction {
         }
       }
     }
+
+    //The very prior condition it detects is if the pressing time exceeds the delay time setted, to confirm the change is not random electric signaling
+    //Then it checks if the button is from on to off or off to on
+    //If on to off, start recording time, preparing to detect off
+    //If off to on, store the time of this press, and reset certain conditions
+
+    if (count > 0 && currentStabledState == HIGH && millis() - detachTime >= characterTime) {
+      digitalWrite(charPin, HIGH);
+      interpretation();
+      waitConf = true;
+      digitalWrite(charPin, LOW);
+    }
+    //If statement verifying if something is stored, the button is not pressed, and also confirmed to finish a character (setted time)
+
+    if (waitConf == true && currentStabledState == HIGH && millis() - detachTime >= wordTime) {
+      digitalWrite(wordPin, HIGH);
+      Serial.print(" ");
+      waitConf = false;
+      digitalWrite(wordPin, LOW);
+    }
+    //After a character is done, if continue waiting print a space  
 
     lastStabledState = reading;
   }
@@ -116,6 +136,7 @@ class interaction {
 
     count = 0;
   }
+  //This will be active under two condition, code slot filled or wait time of character exceeds
 
   char decodeMorse() {
     if (word == ".-") return 'A';
@@ -148,7 +169,7 @@ class interaction {
     return '?';
   }
 };
-
+//Dictionary for intepretation function
 interaction morse;
 
 void setup() {
