@@ -11,4 +11,8 @@ Codings are all on Arduino IDE and based on Arduino Documents
 
 [Read Arduino Documents](https://docs.arduino.cc)
 
+
+**All the building portrait comes from [wokwi](https://wokwi.com), this website can be used to perform virtual arduino simulation if there's no physical one for hand on experience.
+
+
 $${\color{red} It's \space highly \space recommanded \space to \space check \space documents \space to \space learn \space specifically \space about \space codes, \space hardware \space and everything.}$$
