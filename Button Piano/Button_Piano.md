@@ -1,13 +1,14 @@
-#Button Piano
+# Button Piano
 
 A fundamental approach towards utilizing buzzer, learn how to give buzzer sound variants, as the buzzer reacts to buttons.
 
 
-##Building
+## Building
 <img width="483" height="562" alt="image" src="https://github.com/user-attachments/assets/28f6b0f6-af1b-47d3-9e66-32661702ada6" />
 
 
-##Coding
+## Coding
+
 [Tone Chart used](https://github.com/user-attachments/files/30604852/tone.chart.txt)
 ```
 #include tone.chart.txt
