@@ -4,14 +4,7 @@ Start by counting down, then determine which side pressed the button first, also
    
 Loops infinitely until lose power.
 
-## Used Parts
-  ```
-   Basic Breadboard
-   Jumpwires and wires
-   LED bulbs 
-   Buttons
-   Buzzer
-```
+
 ## Building
 <img width="806" height="541" alt="image" src="https://github.com/user-attachments/assets/f34b91cd-c57a-49a7-a774-5e7e47ca9130" />
 
