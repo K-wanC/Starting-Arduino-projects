@@ -6,7 +6,9 @@
 Collection of small Arduino projects to do while learning basics of electronics
 
 Codings are all on Arduino IDE and based on Arduino Documents
+
 [Download Arduino IDE](https://www.arduino.cc/en/software/)
+
 [Read Arduino Documents](https://docs.arduino.cc)
 
 $${\color{red} It's \space recommanded \space to \space check \space documents \space to \space learn \space specifically \space about \space codes, \space hardware \space and everything.}$$
