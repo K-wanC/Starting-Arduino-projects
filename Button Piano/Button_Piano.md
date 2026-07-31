@@ -11,8 +11,8 @@ A fundamental approach towards utilizing buzzer, learn how to give buzzer sound 
 
 [Tone Chart used](https://github.com/user-attachments/files/30604852/tone.chart.txt)
 ```
-#include tone.chart.txt
-
+#include "...\tone.chart.txt"
+//Should include full directory to the file
 int pin1 = 2;
 int pin2 = 3;
 int pin3 = 4;
