@@ -19,7 +19,6 @@ int pin3 = 4;
 int pin4 = 5;
 int speaker = 10;
 void setup() {
-  // put your setup code here, to run once:
   pinMode(pin1,INPUT_PULLUP);
   pinMode(pin2,INPUT_PULLUP);
   pinMode(pin3,INPUT_PULLUP);
@@ -28,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  //Utilizing the tone function, as it can alternate hertz and time of the output, the notes were defined in the attachment
   while(digitalRead(pin1)==LOW)
   {
     tone(speaker,NOTE_C1,10);
