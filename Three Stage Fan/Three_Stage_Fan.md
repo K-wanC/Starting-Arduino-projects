@@ -3,6 +3,7 @@ Controlling a single-cable fan by codes, learning to use analog output.
 
 # Building
 <img width="461" height="547" alt="image" src="https://github.com/user-attachments/assets/ca4f71d7-2e9b-49ff-a5eb-1ddc23b536ab" />
+
 *Since there's no fan component shown in the simulator website Wokwi, the LED will be indicating a brushed DC motor (9V).
 
 # Code
