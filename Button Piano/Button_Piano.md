@@ -1,6 +1,6 @@
 # Button Piano
 
-A fundamental approach towards utilizing buzzer, learn how to give buzzer sound variants, as the buzzer reacts to buttons.
+A fundamental approach towards utilizing buzzer, learn how to give buzzer sound variants by using tone(), as the buzzer reacts to buttons.
 
 
 ## Building
