@@ -28,7 +28,7 @@ CS(Load) - 10
 
 CLK(Clock) - 13
 
-### Core Library Mechanics
+### Core Library Mechanics (all information from [LED Control information page](https://wayoda.github.io/LedControl/pages/software.html))
 
 **LedControl (String)name = LedControl(DIN pin,CS pin,CLK pin,number of LED boards connected)**
 - Initialize an object of controller for further function callout.
