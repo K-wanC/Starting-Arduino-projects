@@ -17,9 +17,14 @@ https://github.com/user-attachments/assets/1ebae6c5-c769-4606-b207-f9640494e5be
 
 
 Pins:
+
 VCC(Power Input) - 5V/3V power pin
+
 GND - any GND on board
+
 DIN(Digital Signal Input) - 11
+
 CS(Load) - 10
+
 CLK(Clock) - 13
 
