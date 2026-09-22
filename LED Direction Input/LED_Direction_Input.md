@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/1ebae6c5-c769-4606-b207-f9640494e5be
 <img width="506" height="754" alt="image" src="https://github.com/user-attachments/assets/ff7023cc-63c8-4718-b4b5-affacd6b1e8e" />
 
 
-Pins:
+### Pins:
 
 VCC(Power Input) - 5V/3V power pin
 
@@ -27,4 +27,10 @@ DIN(Digital Signal Input) - 11
 CS(Load) - 10
 
 CLK(Clock) - 13
+
+### Core Library Mechanics
+
+LedControl (String)name = LedControl(DIN pin,CS pin,CLK pin,number of LED boards connected)
+-
+Initialize a object of controller for further function callout.
 
