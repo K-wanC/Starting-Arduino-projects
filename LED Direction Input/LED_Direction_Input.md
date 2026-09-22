@@ -8,7 +8,7 @@ Using *MAX7219* 8X8 LED Matrix Controller, 4 buttons with direction imbedded to 
 
 https://github.com/user-attachments/assets/1ebae6c5-c769-4606-b207-f9640494e5be
 
-## Coding
+## Main course
 *Download LED Control Library by Eberhard Fahle on Arduino IDE*
 
 
@@ -30,7 +30,25 @@ CLK(Clock) - 13
 
 ### Core Library Mechanics
 
-LedControl (String)name = LedControl(DIN pin,CS pin,CLK pin,number of LED boards connected)
--
-Initialize a object of controller for further function callout.
+*LedControl (String)name = LedControl(DIN pin,CS pin,CLK pin,number of LED boards connected)*
+- Initialize an object of controller for further function callout.
 
+*(String)name.shutdown(int address(index of board),boolean)*
+- Temporarily turn off the display but remembers the displayed bulb
+
+*(String)name.setIntensity(int adress(index of board),int number(0-7))*
+- Set LED light strength, 0 doesn't mean off
+
+*(String)name.clearDisplay(int adress(index of board))*
+- Wipes all the displayed LED bulb
+
+*(String)name.setLED(int adress(index of board),int row(index),int col(index),boolean statement)*
+- Set a specific LED on or off
+
+*(String)name.setRow(int adress(index of board),int row(index),byte)*
+- Set input byte value of all bulbs of the row
+
+*(String)name.setColumn(int adress(index of board),int col(index),byte)*
+- Set input byte value of all bulbs of the column
+
+**byte:B00000000, B + 7 numbers, 1 represents on, 0 represents off**
