@@ -53,6 +53,4 @@ CLK(Clock) - 13
 
 ***byte:B00000000, B + 7 numbers, 1 represents on, 0 represents off***
 
-### Code elaboration
-
-Using for loop to make the position of led patterns change, to achieve a motion of scrolling
+[***Full code inspection***](https://drive.google.com/file/d/1WKtfN64wK-uDAduI4aUCDGSTSI00OPHf/view?usp=sharing)
